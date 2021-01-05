@@ -1,1 +1,12 @@
+title: 德全blog#标题
+subtitle: ''
+description: #简介或者格言
+keywords:
+author: 德全#作者
+language: zh-CN     #主题语言
+timezone: Asia/Shanghai    #中国的时区
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
 theme: jekyll-theme-merlot
