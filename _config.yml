@@ -1,12 +1,32 @@
-title: 标题 #标题
+title: title
 subtitle: ''
 description: 简介行 #简介或者格言
 keywords:
-author: 德全#作者
-language: zh-CN     #主题语言
-timezone: Asia/Shanghai    #中国的时区
-
+author: 德全 #作者
+language: zh-CN
+timezone: Asia/Shanghai
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: jekyll-theme-merlot
+menu:
+  home: / || home                      #首页
+  archives: /archives/ || archive      #归档
+  categories: /categories/ || th       #分类
+  tags: /tags/ || tags                 #标签
+  about: /about/ || user               #关于
+  resources: /resources/ || download   #资源
+  #schedule: /schedule/ || calendar    #日历
+  #sitemap: /sitemap.xml || sitemap    #站点地图，供搜索引擎爬取
+  #commonweal: /404/ || heartbeat      #腾讯公益404
+  
+  # Canvas-nest
+# Dependencies: https://github.com/theme-next/theme-next-canvas-nest
+# For more information: https://github.com/hustcc/canvas-nest.js
+canvas_nest:
+  enable: true
+  onmobile: true # Display on mobile or not
+  color: "0,0,255" # RGB values, use `,` to separate
+  opacity: 0.5 # The opacity of line: 0~1
+  zIndex: -1 # z-index property of the background
+  count: 99 # The number of lines
